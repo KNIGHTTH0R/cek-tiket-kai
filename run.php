@@ -7,7 +7,7 @@ $des     = trim(fgets(STDIN));
 echo "Tanggal berapa ?\n"; 
 $date    = trim(fgets(STDIN)); 
 $date2   = '20190621'; 
-echo "Berapa orang ?\n"; 
+echo "Berapa orang ?\n\n"; 
 $adult   = trim(fgets(STDIN)); 
 // 
 $get      = gettiket($org, $des, $date, $date2, $adult); 
